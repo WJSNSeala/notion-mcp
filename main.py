@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from httpx import AsyncClient
 app = FastAPI()
 
 
